@@ -15,6 +15,47 @@ The goal is to derive actionable insights that help drive decisions across marke
 
 ## 🧠 Key Analytical Techniques Used
 
+## 🔍 Part 1: Exploratory Data Analysis (EDA)
+
+This section focuses on uncovering initial patterns, trends, and summary insights from the data using foundational SQL techniques.
+
+### 1️⃣ Database Exploration
+- Explored the overall structure of the database.
+- Identified all tables and their relationships using schema inspection queries.
+- Reviewed columns, data types, and constraints to understand the dataset context.
+
+### 2️⃣ Dimensions Exploration
+- Focused on analyzing dimension tables (e.g., Customers, Products, Categories).
+- Verified the uniqueness and completeness of primary key columns.
+- Checked for hierarchical or categorical groupings used for segmentation.
+
+### 3️⃣ Date Range Exploration
+- Determined the earliest and latest dates available in transactional or event-based tables.
+- Helped define the time span of data availability for accurate trend analysis.
+- Identified gaps or irregularities in temporal data.
+
+### 4️⃣ Measures Exploration (Key Metrics)
+- Calculated key aggregated values such as totals, averages, and counts.
+- Provided quick insights into volume and central tendencies of business activities.
+- Useful for detecting high-level patterns and anomalies.
+
+### 5️⃣ Magnitude Analysis
+- Quantified and grouped data across dimensions such as region, category, and customer type.
+- Helped understand which segments contribute most to key measures like sales or quantity.
+- Used `GROUP BY`, `ORDER BY`, and aggregate functions (`SUM()`, `COUNT()`, `AVG()`).
+
+### 6️⃣ Ranking Analysis
+- Ranked entities such as products or customers by performance metrics like sales or frequency.
+- Identified top performers and underperformers.
+- Applied window functions like `RANK()`, `DENSE_RANK()`, and `ROW_NUMBER()` for detailed sorting.
+
+
+## 📈 Part 2: Advanced Analytics
+
+This section includes deep-dive analyses designed to answer strategic business questions, track KPIs, and produce detailed performance reports.
+
+Advanced analytics includes:
+
 ### 1️⃣ Change Over Time
 - Analyzed how a measure (e.g. sales, orders) evolves over time.
 - Used to identify trends, patterns, and seasonality in the business.
@@ -39,19 +80,6 @@ The goal is to derive actionable insights that help drive decisions across marke
 - Grouped data based on defined ranges (e.g. age groups, spending bands).
 - Allowed identification of patterns and correlations between two or more variables.
 - Key to personalizing campaigns and strategies.
-
-### 6️⃣ Measures Exploration (Key Metrics)  
-- To calculate aggregated metrics (e.g., totals, averages) for quick insights.
-- To identify overall trends or spot anomalies.
-
-### 7️⃣ Magnitude Analysis
-- To quantify data and group results by specific dimensions.
-- For understanding data distribution across categories.
-
-### 8️⃣ Ranking Analysis
-- To rank items (e.g., products, customers) based on performance or other metrics.
-- To identify top performers or laggards.
-
 
 ---
 
