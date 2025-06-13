@@ -40,6 +40,19 @@ The goal is to derive actionable insights that help drive decisions across marke
 - Allowed identification of patterns and correlations between two or more variables.
 - Key to personalizing campaigns and strategies.
 
+### 6️⃣ Measures Exploration (Key Metrics)  
+- To calculate aggregated metrics (e.g., totals, averages) for quick insights.
+- To identify overall trends or spot anomalies.
+
+### 7️⃣ Magnitude Analysis
+- To quantify data and group results by specific dimensions.
+- For understanding data distribution across categories.
+
+### 8️⃣ Ranking Analysis
+- To rank items (e.g., products, customers) based on performance or other metrics.
+- To identify top performers or laggards.
+
+
 ---
 
 ## 📈 Report Highlights
@@ -92,7 +105,7 @@ A detailed breakdown of product performance across multiple metrics.
 
 ## 🛠️ Tools & Technologies
 
-- **SQL** (PostgreSQL dialect)
+- **SQL** (MySQL/PostgreSQL)
 - **CTEs**, **window functions**, **aggregate functions**
 - `FILTER`, `CASE WHEN`, `crosstab()` (for pivoting)
 - Strong focus on **clean, readable, and efficient SQL**
@@ -106,13 +119,6 @@ A detailed breakdown of product performance across multiple metrics.
 - Practiced translating raw data into strategic insights.
 - Gained confidence with advanced SQL features like window functions, conditional aggregation, and data segmentation.
 
----
-
-## 📌 What's Next?
-
-- Visualization using tools like Power BI or Tableau  
-- Building interactive dashboards  
-- Automating reports with Python or scheduling in a BI pipeline
 
 ---
 
@@ -120,5 +126,5 @@ A detailed breakdown of product performance across multiple metrics.
 
 If you have any feedback or would like to collaborate, feel free to connect with me!
 
-- 📧 Email: your.email@example.com  
-- 💼 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourname)
+- 📧 Email: Yraaj2002@gmail.com  
+- 💼 LinkedIn: [Yash Raj LinkedIn](https://www.linkedin.com/in/yash-raj-46a024242/)
